@@ -14,6 +14,8 @@
 		CC0E9A821C66C62E0028A616 /* termsModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0E9A811C66C62E0028A616 /* termsModalViewController.swift */; };
 		CC0E9A841C66D9120028A616 /* settingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0E9A831C66D9120028A616 /* settingsViewController.swift */; };
 		CC0E9A861C66F5260028A616 /* favViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0E9A851C66F5260028A616 /* favViewController.swift */; };
+		CC1F43B61C68094100355DF0 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1F43B51C68094100355DF0 /* FavoritesViewController.swift */; };
+		CC1F43B81C680C0500355DF0 /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1F43B71C680C0500355DF0 /* FavoriteViewController.swift */; };
 		CCDFDD341C61C4A5003BA9F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDFDD331C61C4A5003BA9F3 /* AppDelegate.swift */; };
 		CCDFDD361C61C4A5003BA9F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDFDD351C61C4A5003BA9F3 /* ViewController.swift */; };
 		CCDFDD391C61C4A5003BA9F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCDFDD371C61C4A5003BA9F3 /* Main.storyboard */; };
@@ -29,6 +31,8 @@
 		CC0E9A811C66C62E0028A616 /* termsModalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = termsModalViewController.swift; sourceTree = "<group>"; };
 		CC0E9A831C66D9120028A616 /* settingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = settingsViewController.swift; sourceTree = "<group>"; };
 		CC0E9A851C66F5260028A616 /* favViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = favViewController.swift; sourceTree = "<group>"; };
+		CC1F43B51C68094100355DF0 /* FavoritesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		CC1F43B71C680C0500355DF0 /* FavoriteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
 		CCDFDD301C61C4A5003BA9F3 /* Dropbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dropbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCDFDD331C61C4A5003BA9F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CCDFDD351C61C4A5003BA9F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -52,6 +56,7 @@
 		CCDFDD271C61C4A5003BA9F3 = {
 			isa = PBXGroup;
 			children = (
+				CC1F43B51C68094100355DF0 /* FavoritesViewController.swift */,
 				CCDFDD321C61C4A5003BA9F3 /* Dropbox */,
 				CCDFDD311C61C4A5003BA9F3 /* Products */,
 			);
@@ -71,6 +76,7 @@
 				CCDFDD331C61C4A5003BA9F3 /* AppDelegate.swift */,
 				CCDFDD351C61C4A5003BA9F3 /* ViewController.swift */,
 				CCDFDD371C61C4A5003BA9F3 /* Main.storyboard */,
+				CC1F43B71C680C0500355DF0 /* FavoriteViewController.swift */,
 				CC0E9A851C66F5260028A616 /* favViewController.swift */,
 				CC0E9A831C66D9120028A616 /* settingsViewController.swift */,
 				CC0E9A811C66C62E0028A616 /* termsModalViewController.swift */,
@@ -157,6 +163,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC1F43B81C680C0500355DF0 /* FavoriteViewController.swift in Sources */,
 				CC0E9A7C1C66BE6B0028A616 /* signInRootViewController.swift in Sources */,
 				CC0E9A7E1C66BEB10028A616 /* createAccountViewController.swift in Sources */,
 				CCDFDD361C61C4A5003BA9F3 /* ViewController.swift in Sources */,
@@ -165,6 +172,7 @@
 				CC0E9A791C66BBEC0028A616 /* createAccountRootViewController.swift in Sources */,
 				CC0E9A821C66C62E0028A616 /* termsModalViewController.swift in Sources */,
 				CC0E9A861C66F5260028A616 /* favViewController.swift in Sources */,
+				CC1F43B61C68094100355DF0 /* FavoritesViewController.swift in Sources */,
 				CC0E9A841C66D9120028A616 /* settingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

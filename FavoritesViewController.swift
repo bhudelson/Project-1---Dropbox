@@ -1,22 +1,18 @@
 //
-//  favViewController.swift
+//  FavoritesViewController.swift
 //  Dropbox
 //
-//  Created by Blake Hudelson on 2/6/16.
+//  Created by Blake Hudelson on 2/7/16.
 //  Copyright © 2016 Blake Hudelson. All rights reserved.
 //
 
 import UIKit
 
-class favViewController: UIViewController {
-    
-    
-    @IBAction func onButton(sender: AnyObject) {
-        print("hello")
-    }
+class FavoritesViewController: UIViewController {
+
     override func viewDidLoad() {
         super.viewDidLoad()
-       
+
         // Do any additional setup after loading the view.
     }
 
